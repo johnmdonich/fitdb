@@ -1,0 +1,22 @@
+name: scistack-basic
+dependencies:
+  - altair
+  - black
+  - blas=*=openblas
+  - jupyterlab
+  - mkdocs
+  - mkdocs-material
+  - mypy
+  - numpy
+  - openjdk
+  - pandas
+  - pip
+  - plotly
+  - pylint
+  - python=3.10
+  - pytest
+  - pytest-cov
+  - pytest-pylint
+  - pyspark
+  - scikit-learn
+  - vega
