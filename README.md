@@ -61,4 +61,3 @@ Install in `$HOME`
 ```zsh
 bash $HOME/Mambaforge-MacOSX-arm64.sh
 ```
-
