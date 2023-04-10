@@ -1,6 +1,7 @@
-name: scistack-basic
+name: fitdb
 dependencies:
   - altair
+  - attrs
   - black
   - blas=*=openblas
   - jupyterlab
@@ -8,15 +9,16 @@ dependencies:
   - mkdocs-material
   - mypy
   - numpy
-  - openjdk
   - pandas
   - pip
-  - plotly
+  - polars
+  - pyarrow
   - pylint
   - python=3.10
   - pytest
   - pytest-cov
   - pytest-pylint
-  - pyspark
-  - scikit-learn
   - vega
+  - pip:
+      - garmin-fit-sdk
+      - "--editable ."

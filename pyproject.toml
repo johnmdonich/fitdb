@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fitdb"
+version = "1.0.0"
+authors = [{ name = "John Donich", email = "code@johnmdonich.com" }]
+description = "A set of tools for transforming fit files to relational data"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["fit", "python"]
+license = { text = "BSD-3-Clause" }
+classifiers = ["Programming Language :: Python :: 3"]
+dependencies = ["garmin-fit-sdk"]
+
+[tool.setuptools]
+packages = ["fitdb"]
