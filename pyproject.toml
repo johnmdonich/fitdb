@@ -12,7 +12,7 @@ requires-python = ">=3.10"
 keywords = ["fit", "python"]
 license = { text = "BSD-3-Clause" }
 classifiers = ["Programming Language :: Python :: 3"]
-dependencies = ["garmin-fit-sdk"]
+dependencies = ["garmin-fit-sdk", "polars"]
 
 [tool.setuptools]
 packages = ["fitdb"]
