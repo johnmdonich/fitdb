@@ -1,4 +1,6 @@
 name: fitdb
+channels:
+  - conda-forge
 dependencies:
   - altair
   - attrs
